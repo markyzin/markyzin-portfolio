@@ -56,16 +56,16 @@ Quero fechar contigo! Como funciona o envio do material?`;
       {/* HEADER */}
       <header className="p-8 border-b border-zinc-800 flex justify-between items-center sticky top-0 backdrop-blur-md bg-black/50 z-50">
         <div className="flex items-center gap-4">
-          <button
-            onClick={() => setOpenBio(!openBio)}
-            className="w-14 h-14 rounded-full overflow-hidden border-2 border-purple-500"
-          >
-            <img
-  src="/markyzin.png"
+<button
+  onClick={() => setOpenBio(!openBio)}
   className="w-16 h-16 rounded-full overflow-hidden border-2 border-purple-500 shadow-lg shadow-purple-500/40 hover:shadow-purple-500/70 hover:scale-105 transition duration-300"
-  alt="MarkyZin"
-/>
-          </button>
+>
+  <img
+    src="/markyzin.png"
+    className="w-full h-full object-cover object-center"
+    alt="MarkyZin"
+  />
+</button>
           <h1 className="text-3xl font-bold text-purple-400">MarkyZin</h1>
         </div>
 
