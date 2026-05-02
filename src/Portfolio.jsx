@@ -60,10 +60,11 @@ Quero fechar contigo! Como funciona o envio do material?`;
             onClick={() => setOpenBio(!openBio)}
             className="w-14 h-14 rounded-full overflow-hidden border-2 border-purple-500"
           >
-            <img
-              src="https://via.placeholder.com/100"
-              className="w-full h-full object-cover"
-              alt="Foto"
+            <<img
+  src="/markyzin.png"
+  className="w-full h-full object-cover scale-110 hover:scale-125 transition duration-500"
+  alt="MarkyZin"
+/>
             />
           </button>
           <h1 className="text-3xl font-bold text-purple-400">MarkyZin</h1>
