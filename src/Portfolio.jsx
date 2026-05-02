@@ -62,7 +62,7 @@ Quero fechar contigo! Como funciona o envio do material?`;
           >
             <img
   src="/markyzin.png"
-  className="w-full h-full object-cover scale-110 hover:scale-125 transition duration-500"
+  className="w-16 h-16 rounded-full overflow-hidden border-2 border-purple-500 shadow-lg shadow-purple-500/40 hover:shadow-purple-500/70 hover:scale-105 transition duration-300"
   alt="MarkyZin"
 />
           </button>
