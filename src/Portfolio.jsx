@@ -93,6 +93,35 @@ Quero fechar contigo! Como funciona o envio do material?`;
       )}
 
       {/* HERO */}
+      <section className="p-10">
+  <h3 className="text-3xl font-bold mb-6 text-purple-400">
+    Projetos
+  </h3>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {projetos.map((p, i) => (
+      <a
+        key={i}
+        href={p.link}
+        target="_blank"
+        rel="noreferrer"
+        className="bg-zinc-900/80 border border-purple-500/20 rounded-2xl overflow-hidden hover:scale-105 transition duration-300"
+      >
+        <img
+          src={`https://img.youtube.com/vi/${p.id}/hqdefault.jpg`}
+          alt={p.nome}
+          className="w-full h-40 object-cover"
+        />
+
+        <div className="p-4">
+          <p className="text-xs text-purple-400 mb-1">YouTube</p>
+          <h4 className="font-bold text-sm">{p.nome}</h4>
+          <p className="text-zinc-400 text-xs mt-1">{p.artista}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
       <section className="p-10 grid md:grid-cols-2 gap-8 items-center min-h-[80vh]">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h2 className="text-5xl md:text-7xl font-bold mb-4">
@@ -210,3 +239,35 @@ Quero fechar contigo! Como funciona o envio do material?`;
     </div>
   );
 }
+const projetos = [
+  {
+    nome: "Toji Fushiguro (Jujutsu Kaisen) - Pagamento",
+    artista: "Vitin Music",
+    link: "https://youtu.be/Pe1_zO7k--M",
+    id: "Pe1_zO7k--M"
+  },
+  {
+    nome: "YUUKA! (Jujutsu Kaisen Módulo)",
+    artista: "VnOficial",
+    link: "https://youtu.be/MQUP-C0rPgA",
+    id: "MQUP-C0rPgA"
+  },
+  {
+    nome: "Confesso",
+    artista: "M4CAIBA",
+    link: "https://youtu.be/MaF-sEPlR2E",
+    id: "MaF-sEPlR2E"
+  },
+  {
+    nome: "Amanhecer 💔 | (Frieren e Himmel)",
+    artista: "Shinosz Feat. Giuly",
+    link: "https://youtu.be/kTy0fIOBnko",
+    id: "kTy0fIOBnko"
+  },
+  {
+    nome: "Flow Isagi e Bachira ⚽️ 🧩 | (Blue Lock)",
+    artista: "LKBBEAT",
+    link: "https://youtu.be/0qcbvwHvCIs",
+    id: "0qcbvwHvCIs"
+  }
+];
