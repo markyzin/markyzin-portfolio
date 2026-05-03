@@ -69,7 +69,6 @@ export default function Portfolio() {
 
  const gerarMensagem = () => {
   return `NOVO PEDIDO PELO SITE
-
 Mixagem + Master: ${mix ? "(sim)" : "(não)"}
 Composição: ${comp ? "(sim)" : "(não)"}
 Feat: ${feat ? "(sim)" : "(não)"}
@@ -220,6 +219,7 @@ Quero fechar contigo! Como envio o material?`;
           <p className="text-zinc-400 mb-6 max-w-xl">
             Escolha o serviço desejado, calcule o valor e fale diretamente comigo.
             Atendimento rápido e suporte completo até a entrega final.
+            (Cupom de 20% Aplicado se vinher de recomendação)
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
