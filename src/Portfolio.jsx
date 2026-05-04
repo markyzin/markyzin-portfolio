@@ -220,7 +220,6 @@ Quero fechar contigo! Como envio o material?`;
   Escolha o serviço desejado, calcule o valor e fale diretamente comigo.
   Atendimento rápido e suporte completo até a entrega final.
 </p>
-
 <motion.div
   animate={{
     boxShadow: [
@@ -231,7 +230,15 @@ Quero fechar contigo! Como envio o material?`;
   }}
   transition={{ repeat: Infinity, duration: 1.8 }}
   className="mt-3 bg-gradient-to-r from-purple-600/30 to-pink-500/30 border border-purple-500/50 px-4 py-3 rounded-xl"
-></motion.div>
+>
+  <p className="text-sm font-bold text-purple-200">
+    🔥 20% OFF exclusivo para indicações
+  </p>
+
+  <p className="text-xs text-zinc-300 mt-1">
+    Válido apenas para quem vier por recomendação.
+  </p>
+</motion.div>
           <div className="grid md:grid-cols-2 gap-8">
             {/* COLUNA ESQUERDA - SERVIÇOS */}
             <div className="bg-zinc-900/80 border border-purple-500/20 rounded-2xl p-6 space-y-4
