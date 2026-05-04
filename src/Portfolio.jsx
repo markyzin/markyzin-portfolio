@@ -87,7 +87,7 @@ Quero fechar contigo! Como envio o material?`;
     }
 
     if (canal === "insta") {
-      return `https://instagram.com/markyzin_ml`;
+      return `https://instagram.com/markyzin__`;
     }
 
     if (canal === "discord") {
@@ -217,11 +217,21 @@ Quero fechar contigo! Como envio o material?`;
           <h3 className="text-3xl font-bold mb-6 text-purple-400">Carrinho</h3>
 
           <p className="text-zinc-400 mb-6 max-w-xl">
-            Escolha o serviço desejado, calcule o valor e fale diretamente comigo.
-            Atendimento rápido e suporte completo até a entrega final.
-            (Cupom de 20% Aplicado se vinher de recomendação)
-          </p>
+  Escolha o serviço desejado, calcule o valor e fale diretamente comigo.
+  Atendimento rápido e suporte completo até a entrega final.
+</p>
 
+<motion.div
+  animate={{
+    boxShadow: [
+      "0 0 5px rgba(168,85,247,0.4)",
+      "0 0 25px rgba(168,85,247,0.9)",
+      "0 0 5px rgba(168,85,247,0.4)"
+    ]
+  }}
+  transition={{ repeat: Infinity, duration: 1.8 }}
+  className="mt-3 bg-gradient-to-r from-purple-600/30 to-pink-500/30 border border-purple-500/50 px-4 py-3 rounded-xl"
+></motion.div>
           <div className="grid md:grid-cols-2 gap-8">
             {/* COLUNA ESQUERDA - SERVIÇOS */}
             <div className="bg-zinc-900/80 border border-purple-500/20 rounded-2xl p-6 space-y-4
