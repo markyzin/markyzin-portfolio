@@ -13,6 +13,12 @@ export default function Portfolio() {
 
   const projetos = [
     {
+      nome: "Oi, ou nada haver?",
+      artista: "M4CAIBA",
+      link: "https://youtu.be/ye0R2_G2LG4",
+      id: "ye0R2_G2LG4"
+    },
+    {
       nome: "Toji Fushiguro (Jujutsu Kaisen) - Pagamento",
       artista: "Vitin Music",
       link: "https://youtu.be/Pe1_zO7k--M",
